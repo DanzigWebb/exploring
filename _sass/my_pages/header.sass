@@ -27,6 +27,21 @@
 .header-search__icon
   color: #fff
   
-@media (max-width: 580px)
+
+
+// боковое меню
+.site-header
+  .hamburger-box
+    display: none
+.site-header
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after
+    background-color: #fff
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after
+    width: 30px
+    height: 2px
+@media (max-width: 860px)
   .header-menu
     display: none
+  .site-header
+    .hamburger-box
+      display: block
