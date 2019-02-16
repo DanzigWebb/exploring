@@ -1,0 +1,355 @@
+.main-screen
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/images/slider/slide-1.jpg)
+  height: 600px
+  background-position: top center
+  background-size: cover
+  background-repeat: no-repeat
+  display: flex
+  justify-content: center
+  align-items: center
+.main-screen__title
+  position: relative
+  top: 40px
+  color: #fff
+  text-transform: uppercase
+  span 
+    position: relative
+    left: 60px
+    
+@media (max-width: 460px)
+  .header-menu
+    display: none
+  .main-screen
+    height: 300px
+  .main-screen__title
+    span
+      left: 20px
+@media (min-width: 1500px)
+  .main-screen
+    height: 800px
+      
+.explore
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/templates/theme3672/images/bg1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top center
+  min-height: 520px
+.explore-wrap
+  display: flex
+.explore-heading
+  width: 70%
+  margin-right: 50px
+  margin-bottom: 50px
+.explore-heading__title
+  margin: 0
+.explore-media
+  display: flex
+  width: 100%
+  position: relative
+  justify-content: flex-start
+  margin-bottom: 60px
+.explore-media__pic
+  width: 50%
+.explore-media__pic--one
+  left: 0
+  position: relative
+.explore-media__pic--second
+  right: 80px
+  top: 60px
+  position: absolute
+  
+@media (max-width: 840px)
+  .explore-wrap
+    flex-direction: column
+@media (max-width: 540px)
+  .explore-heading
+    width: 70%
+    margin-right: 0
+  .explore
+    background-position: center bottom
+  .explore-media__pic
+    width: 60%
+  .explore-media__pic--one
+    position: relative
+  .explore-media__pic--second
+    right: 10px
+    top: 40px
+@media (max-width: 440px)
+  .explore-heading
+    width: 80%
+    
+.quoterbox
+  padding: 200px 0
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/templates/theme3672/images/bg2.png)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: left center
+  position: relative
+  z-index: 1
+  position: relative
+.quoterbox-bg
+  background: $accent
+  opacity: 0.94
+  width: 70%
+  right: 0
+  top: 140px
+  bottom: 140px
+  position: absolute
+  z-index: -1
+  right: 0
+  
+.quoterbox-wrap
+  display: flex
+  align-items: center
+  justify-content: flex-end
+
+  
+
+  
+.quoterbox-blockquote
+  padding: 50px
+  display: flex
+  align-items: center
+  width: 60%
+.quoterbox-blockquote-heading
+  border-left: 3px #000 solid
+  padding-left: 80px
+  position: relative
+.quoterbox-blockquote-heading:before
+  content: '"'
+  position: absolute
+  left: 40px
+  top: -20px
+  color: #000
+  font-size: 44px
+.quoterbox-blockquote__text
+  font-family: 'Oswald', sans-serif
+  font-weight: 400
+  color: $h-color
+  margin: 0
+.quoterbox-blockquote__footer
+  font-style: italic
+  
+@media (max-width: 900px)
+  .quoterbox-bg
+    top: 160px
+    bottom: 160px
+@media (max-width: 760px)
+  .quoterbox-blockquote
+    width: 80%
+    padding: 0
+  .quoterbox-bg
+    width: 90%
+@media (max-width: 760px)
+  .quoterbox-blockquote
+    width: 90%
+  .quoterbox-bg
+    width: 95%
+  .quoterbox-blockquote-heading
+    padding-left: 40px
+  .quoterbox-blockquote-heading:before
+    left: 10px
+  .quoterbox-blockquote__text
+    font-size: 20px
+    
+.achivments-wrap
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  flex-wrap: wrap
+.achivments-heading
+  margin-right: 15px
+  width: 30%
+@media (max-width: 990px)
+  .achivments-heading
+    width: 47%
+@media (max-width: 620px)
+  .achivments-heading
+    width: 90%
+  .achivments-wrap
+    justify-content: center
+    
+    
+.tours
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/templates/theme3672/images/bg3.png)
+  background-size: cover
+  position: relative
+.tours-bg
+  background-color: $accent
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 140px
+  top: 140px
+  z-index: -1
+  
+    
+.tours-grid
+  display: grid
+  grid-gap: 20px
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: 230px 230px
+
+
+.tours-item
+  background-position: center bottom
+  background-size: cover
+  background-repeat: no-repeat
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  grid-auto-flow: dense
+  padding: 20px
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.65)
+  
+  
+.tours-canada
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/images/travels/thumb1.jpg)
+  grid-row-start: 1
+  grid-row-end: 3
+.tours-asia
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/images/travels/thumb2.jpg)
+.tours-vietnam
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/images/travels/thumb4.jpg)
+.tours-europe
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/images/travels/thumb3.jpg)
+  grid-row-start: 1
+  grid-row-end: 3
+  grid-column-start: 3
+  grid-column-end: 4
+  
+.tours-item__link
+  text-decoration: none
+  color: #fff
+  font-weight: 700
+  font-size: 20px
+  text-transform: capitalize
+  transition: $def-anim
+.tours-item__link:hover
+  color: $accent
+.tours-item__price
+  margin: 0
+  color: #fff
+  letter-spacing: -1px
+  font-size: 14px
+  font-weight: 500
+  span
+    font-size: 18px
+    font-weight: 700
+    letter-spacing: normal
+    
+@media (max-width: 680px)
+  .tours-grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 200px 200px 200px
+  .tours-europe
+    grid-column-start: 1
+    grid-column-end: 3
+    grid-row-start: 3
+    grid-row-end: 5
+@media (max-width: 450px)
+  .tours-grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: repeat(3, 160px)
+  .tours-item__link
+    font-size: 16px
+    
+// сервисы 
+  
+.services-wrap
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+.services-heading
+  width: 100%
+  margin-right: 25px
+.services-heading__txt
+  margin-bottom: 0
+  
+.services-links
+  display: flex
+  justify-content: space-between
+  width: 100%
+.services-links-column
+  margin-right: 2*$gatter
+.services-links__link
+  display: block
+  margin-top: $gatter
+  color: #737576
+.services-links__link:hover:before
+  color: #737576
+.services-links__link:before
+  content: '\f061'
+  margin-right: 10px
+  font-family: 'Font Awesome 5 Free'
+  font-weight: 900
+  
+@media (max-width: 1075px)
+  .services-links
+    width: 120%
+@media (max-width: 990px)
+  .services-links
+    width: 140%
+@media (max-width: 930px)
+  .services-wrap
+    flex-direction: column
+  .services-links
+    width: 100%
+  .services-heading
+    margin-right: 0
+    margin-bottom: 40px
+  .services-links
+    justify-content: flex-start
+    
+@media (max-width: 550px)
+  .services-links
+    flex-direction: column
+    margin-left: $gatter
+  .services-links-column
+    margin-bottom: 20px
+    
+  
+// цитата
+
+.quoter
+  background-image: url(https://livedemo00-joomla.template-help.com/joomla_prod-21749_v1/templates/theme3672/images/bg4.png)
+  background-size: cover
+  background-repeat: no-repeat
+  
+.quoter-wrap
+  padding: 100px 15px
+  display: flex
+  align-items: center
+  justify-content: flex-end
+.quoter-blockquote
+  width: 60%
+  padding: 40px 80px
+  background-color: rgba(255, 255, 255, 0.9)
+  
+@media (max-width: 775px)
+  .quoter-blockquote
+    width: 70%
+    padding: 20px 40px
+    
+@media (max-width: 620px)
+  .quoter-blockquote
+    width: 100%
+@media (max-width: 465px)
+  .quoter-blockquote
+    padding: 10px 10px
+  .quoter-wrap
+    padding: 60px 0
+  
+// блог
+    
+.posts-box-item__pic
+  width: 100%
+  height: auto
+  transition: $def-anim
+.posts-box-item__pic:hover
+  opacity: 0.8
+.posts-box-item__date
+  font-size: 13px
+  margin: 4px 0
+.posts-box-item__link
+  font-weight: 700
